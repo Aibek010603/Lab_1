@@ -4,7 +4,6 @@ from random import randint
 
 os.chdir(r"C:\cbb")
 
-pygame.init()
 pygame.time.set_timer(pygame.USEREVENT, 2500)
 FPS = pygame.time.Clock()
 

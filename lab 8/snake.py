@@ -19,14 +19,13 @@ GREEN = (0, 255, 0)
 WHITE = (255, 255, 255)
 
 
-# defines point (cells) on screen
+
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
 
-# defines body and head of snake on points
 class Snake():
     def __init__(self):
         # initiating head
